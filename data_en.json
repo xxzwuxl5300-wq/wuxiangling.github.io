@@ -1,0 +1,181 @@
+{
+    "navbar": [
+        { "id": "home", "text": "Home" },
+        { "id": "education", "text": "Education" },
+        { "id": "research", "text": "Research" },
+        { "id": "projects", "text": "Projects" },
+        { "id": "experience", "text": "Experience" },
+        { "id": "skills", "text": "Skills & Honors" }
+    ],
+    "profile": {
+        "name": "Xiangling Wu",
+        "title": "Environmental Science & Engineering | Ph.D. Candidate",
+        "tags": [
+            "CPC Member",
+            "Tsinghua University",
+            "National University of Singapore"
+        ],
+        "contact": {
+            "email": "xxzwuxl@163.com",
+            "phone": "13551354185"
+        },
+        "intro": "Focusing on the construction of coupled systems of Anaerobic Ammonium Oxidation (Anammox) and Microbial Fuel Cells (MFC), exploring the succession laws of functional microbial communities and stability control strategies in complex biochemical environments.",
+        "avatar": "assets/media/image1.jpeg"
+    },
+    "education": [
+        {
+            "time": "Jan 2026 - Present",
+            "school": "National University of Singapore (NUS)",
+            "major": "Joint Ph.D. in Environmental Engineering | QS Rank 8",
+            "desc": ""
+        },
+        {
+            "time": "Sep 2023 - Present",
+            "school": "Tsinghua University",
+            "major": "Environmental Science & Engineering | Ph.D.",
+            "desc": "GPA: 3.97/4.00 (Top 1%)"
+        },
+        {
+            "time": "Sep 2019 - Jun 2022",
+            "school": "Sichuan Agricultural University",
+            "major": "Civil & Hydraulic Engineering | Master",
+            "desc": "Provincial Outstanding Graduate | National Scholarship"
+        },
+        {
+            "time": "Sep 2015 - Jun 2019",
+            "school": "Sichuan Agricultural University",
+            "major": "Water Supply & Drainage Science and Engineering | Bachelor (Recommended for Admission)\nFinance | Bachelor (Double Degree)",
+            "desc": ""
+        }
+    ],
+    "research": {
+        "intro": [
+            "Development of low-carbon processes for urban sewage treatment towards dual-carbon goals, regulation of microbial metabolic mechanisms, and system engineering applications.",
+            "Dedicated to the synergistic resource utilization path of kitchen waste and sewage treatment, converting biochemical reaction mechanisms into industrial Standard Operating Procedures (SOP) to achieve long-term stable operation and low-carbon delivery of engineering projects."
+        ],
+        "stats": [
+            {
+                "icon": "fas fa-file-alt",
+                "number": "7",
+                "label": "SCI Papers (1st Author)"
+            },
+            {
+                "icon": "fas fa-certificate",
+                "number": "12",
+                "label": "Authorized Patents"
+            },
+            {
+                "icon": "fas fa-star",
+                "number": "55+",
+                "label": "Cumulative IF"
+            }
+        ],
+        "papers": [
+            "Zhang K*, <strong>Wu X (Co-first)</strong>, et al. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors... <em>Chemical Engineering Journal</em> (IF 13.3).",
+            "Zhang K*, <strong>Wu X (Co-first)</strong>, et al. The role and related microbial processes of Mn-dependent anaerobic methane oxidation... <em>Journal of Environmental Management</em> (IF 8).",
+            "Zhang K*, <strong>Wu X</strong>, et al. CH4 control and associated microbial process from constructed wetland... <em>Journal of Environmental Management</em> (IF 8)."
+        ],
+        "patents": [
+            "A CW-MFC device and method for reducing methane and ammonia nitrogen pollution (ZL 2020 1 1011944.0)",
+            "A U-shaped device and operation method for microbial fuel cell coupled constructed wetland (ZL 2019 1 1263024.5)",
+            "Wastewater denitrification treatment system and its treatment method (ZL 2023 1 1635783.6)"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Innovation & Entrepreneurship Competition | Carbon Chain Synergy & Value Transformation Platform",
+            "role": "Project Leader & Captain",
+            "date": "Mar 2025 - Dec 2025",
+            "details": [
+                "<strong>Problem Definition:</strong> Targeting the fragmentation of accounting standards and mismatch of benefits, proposing a digital collaborative solution.",
+                "<strong>Cross-boundary Coordination:</strong> Led a cross-disciplinary team from Tsinghua and Peking University to develop an AI carbon platform (98% accuracy), solving the pain point of manual accounting efficiency.",
+                "<strong>Achievements:</strong> Won National Third Prize in Graduate \"Dual Carbon\" Competition, First Prize at Tsinghua, and Winner of Kunshan Cup."
+            ]
+        },
+        {
+            "name": "Shenzhen Science and Technology Innovation Commission Sustainable Development Special Project | R&D and Application of Kitchen Waste Hydrolysate PD/A Denitrification Process",
+            "role": "Student Leader",
+            "date": "Sep 2022 - Present",
+            "details": [
+                "<strong>Technical R&D:</strong> Led the R&D of a PD/A coupling system based on kitchen waste, overcoming the industry-level bottleneck of microbial community instability.",
+                "<strong>Commercialization:</strong> In-situ conversion completely replaced external carbon sources, reducing costs by 30%~50%, and implementing a 50 m³/d demonstration project."
+            ]
+        },
+        {
+            "name": "National Key R&D Program Youth Project | Low-carbon Preparation of Bio-based Plastics from Brewing Waste",
+            "role": "Main Researcher",
+            "date": "Oct 2024 - Present",
+            "details": [
+                "<strong>Product R&D:</strong> Developed new bio-based materials, extending the shelf life of fruits and vegetables by more than 1 time and reducing raw material costs by 40%."
+            ]
+        }
+    ],
+    "internships": [
+        {
+            "company": "New Hope Wuxin Industry Group Co., Ltd.",
+            "position": "Business Management Center | Planning Dept Intern | Jul 2020 - Sep 2020",
+            "desc": "Produced a 10,000-word research report, with 5 suggestions fully adopted."
+        },
+        {
+            "company": "Country Garden Holdings Co., Ltd.",
+            "position": "Project Marketing Dept | Marketing Management Intern | May 2020 - Jul 2020",
+            "desc": "Became the top salesperson in the first month of employment; conversion rate significantly better than average."
+        },
+        {
+            "company": "Vanke Co., Ltd.",
+            "position": "Digital Technology Center | Digital Operations Intern | Feb 2021 - Apr 2021",
+            "desc": "Unified 200+ key field calibers across the entire chain and established a structured maintenance mechanism."
+        }
+    ],
+    "campus": [
+        {
+            "org": "Tsinghua SIGS Counseling Center",
+            "role": "Counselor & Psychology Club President | Mar 2023 - Sep 2025",
+            "desc": "Built a Chinese-English bilingual psychological support system, improving organizational efficiency by 60%."
+        },
+        {
+            "org": "University Art Troupe",
+            "role": "Dance Troupe Leader | Sep 2016 - Sep 2018",
+            "desc": "Pioneered a closed-loop management system, coordinated 40+ performances, and achieved the first campus championship."
+        },
+        {
+            "org": "Tsinghua Environmental Class 23",
+            "role": "Class Monitor | Sep 2023 - Sep 2024",
+            "desc": "Awarded Tsinghua \"Outstanding Class\" (Top 5%), with 100% peer review excellence rate for three consecutive years."
+        }
+    ],
+    "skills": {
+        "languages": [
+            "English (CET-6, NUS Joint Program)",
+            "German (B1 Level)",
+            "Mandarin (Level 2-A)"
+        ],
+        "data_research": [
+            "R, SPSS, Linux (Modeling & Statistics)",
+            "Origin (Scientific Plotting)",
+            "MS Office"
+        ],
+        "design_ops": [
+            "Ps, Ai, Canva",
+            "Xiumi, Digital Operation Tools"
+        ]
+    },
+    "honors": "National Scholarship, Provincial Outstanding Graduate, Outstanding Student Cadre, Tsinghua Comprehensive Scholarship, Outstanding Social Work Scholarship, Sichuan Agricultural University Annual Outstanding Graduate Student Model, Master's Academic Scholarship, Outstanding Academic Achievement, Outstanding Literary and Artistic Backbone, etc.",
+    "interests": "Badminton, Classical Dance, Swimming, Football, Music, Hiking",
+    "section_titles": {
+        "education": "Education",
+        "research": "Research & Achievements",
+        "research_direction": "Research Direction",
+        "papers": "Representative Papers",
+        "patents": "Authorized Patents",
+        "projects": "Key Projects",
+        "internships": "Internships",
+        "campus": "Campus Experience",
+        "skills": "Skills & Honors",
+        "skills_lang": "Languages",
+        "skills_data": "Data & Research",
+        "skills_design": "Design & Ops",
+        "honors": "Honors & Awards",
+        "interests": "Interests"
+    }
+}

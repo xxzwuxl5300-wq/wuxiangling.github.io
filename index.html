@@ -12,14 +12,14 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo" id="nav-logo"></a>
-            <ul class="nav-links">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#education">教育经历</a></li>
-                <li><a href="#research">研究成果</a></li>
-                <li><a href="#projects">项目经历</a></li>
-                <li><a href="#experience">实习与校园</a></li>
-                <li><a href="#skills">技能与荣誉</a></li>
+            <ul class="nav-links" id="nav-links">
+                <!-- 动态加载 -->
             </ul>
+            <div class="lang-switch">
+                <button id="lang-btn" class="lang-btn">
+                    <i class="fas fa-globe"></i> <span id="lang-text">EN</span>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -33,7 +33,7 @@
     <!-- 教育经历 -->
     <section id="education" class="section-block">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> 教育经历</h2>
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> <span id="title-education">教育经历</span></h2>
             <div class="timeline" id="education-timeline">
                 <!-- 动态加载 -->
             </div>
@@ -43,7 +43,7 @@
     <!-- 研究方向与成果 -->
     <section id="research" class="section-block bg-light">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-flask"></i> 研究方向与科研成果</h2>
+            <h2 class="section-title"><i class="fas fa-flask"></i> <span id="title-research">研究方向与科研成果</span></h2>
             
             <div class="research-intro card" id="research-intro">
                 <!-- 动态加载 -->
@@ -55,13 +55,13 @@
 
             <div class="content-grid">
                 <div class="card">
-                    <h3><i class="fas fa-book-open"></i> 代表性论文</h3>
+                    <h3><i class="fas fa-book-open"></i> <span id="title-papers">代表性论文</span></h3>
                     <ul class="list-styled" id="research-papers">
                         <!-- 动态加载 -->
                     </ul>
                 </div>
                 <div class="card">
-                    <h3><i class="fas fa-scroll"></i> 部分授权专利</h3>
+                    <h3><i class="fas fa-scroll"></i> <span id="title-patents">部分授权专利</span></h3>
                     <ul class="list-styled" id="research-patents">
                         <!-- 动态加载 -->
                     </ul>
@@ -73,7 +73,7 @@
     <!-- 主要项目经历 -->
     <section id="projects" class="section-block">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-project-diagram"></i> 主要项目经历</h2>
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> <span id="title-projects">主要项目经历</span></h2>
             <div id="projects-list">
                 <!-- 动态加载 -->
             </div>
@@ -85,13 +85,13 @@
         <div class="container">
             <div class="grid-2-col">
                 <div>
-                    <h2 class="section-title"><i class="fas fa-briefcase"></i> 实习经历</h2>
+                    <h2 class="section-title"><i class="fas fa-briefcase"></i> <span id="title-internships">实习经历</span></h2>
                     <div class="timeline compact" id="internship-list">
                         <!-- 动态加载 -->
                     </div>
                 </div>
                 <div>
-                    <h2 class="section-title"><i class="fas fa-users"></i> 校园经历</h2>
+                    <h2 class="section-title"><i class="fas fa-users"></i> <span id="title-campus">校园经历</span></h2>
                     <div class="timeline compact" id="campus-list">
                         <!-- 动态加载 -->
                     </div>
@@ -103,18 +103,18 @@
     <!-- 技能与荣誉 -->
     <section id="skills" class="section-block">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-award"></i> 技能与荣誉</h2>
+            <h2 class="section-title"><i class="fas fa-award"></i> <span id="title-skills">技能与荣誉</span></h2>
             <div class="grid-3-col" id="skills-list">
                 <!-- 动态加载 -->
             </div>
             
             <div class="card honor-card">
-                <h3><i class="fas fa-trophy"></i> 荣誉奖项</h3>
+                <h3><i class="fas fa-trophy"></i> <span id="title-honors">荣誉奖项</span></h3>
                 <p id="honors-content"><!-- 动态加载 --></p>
             </div>
 
             <div class="card interest-card">
-                <h3><i class="fas fa-heart"></i> 兴趣爱好</h3>
+                <h3><i class="fas fa-heart"></i> <span id="title-interests">兴趣爱好</span></h3>
                 <p id="interests-content"><!-- 动态加载 --></p>
             </div>
         </div>

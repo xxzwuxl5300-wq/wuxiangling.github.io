@@ -1,4 +1,12 @@
 {
+    "navbar": [
+        { "id": "home", "text": "首页" },
+        { "id": "education", "text": "教育经历" },
+        { "id": "research", "text": "研究成果" },
+        { "id": "projects", "text": "项目经历" },
+        { "id": "experience", "text": "实习与校园" },
+        { "id": "skills", "text": "技能与荣誉" }
+    ],
     "profile": {
         "name": "吴香伶",
         "title": "环境科学与工程 | 博士研究生",
@@ -123,7 +131,7 @@
         {
             "org": "清华大学SIGS心理辅导中心",
             "role": "辅导员 & 心理社社长 | 2023.03 - 2025.09",
-            "desc": "构建中英双语心理教育体系，组织效能提升60%。"
+            "desc": "构建中英双语心理支持体系，组织效能提升60%。"
         },
         {
             "org": "大学生艺术团",
@@ -153,5 +161,21 @@
         ]
     },
     "honors": "国家奖学金、省优秀毕业生、优秀学生干部、清华综合奖学金、优秀社会工作奖学金、四川农业大学年度优秀研究生标兵、硕士学业奖学金、优秀学术成果、优秀文艺骨干等。",
-    "interests": "羽毛球、古典舞、游泳、足球、音乐、徒步"
+    "interests": "羽毛球、古典舞、游泳、足球、音乐、徒步",
+    "section_titles": {
+        "education": "教育经历",
+        "research": "研究方向与科研成果",
+        "research_direction": "研究方向",
+        "papers": "代表性论文",
+        "patents": "部分授权专利",
+        "projects": "主要项目经历",
+        "internships": "实习经历",
+        "campus": "校园经历",
+        "skills": "技能与荣誉",
+        "skills_lang": "语言能力",
+        "skills_data": "数据与科研",
+        "skills_design": "设计与运营",
+        "honors": "荣誉奖项",
+        "interests": "兴趣爱好"
+    }
 }

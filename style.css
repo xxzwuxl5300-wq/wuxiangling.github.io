@@ -80,6 +80,33 @@ a {
     color: var(--accent-color);
 }
 
+/* 语言切换按钮 */
+.lang-switch {
+    margin-left: 20px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all 0.3s;
+    min-width: 90px;
+}
+
+.lang-btn:hover {
+    background: var(--bg-light);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
 /* 通用 Section 样式 */
 .section-block {
     padding: 60px 0;
