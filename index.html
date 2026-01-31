@@ -11,7 +11,7 @@
     <!-- 导航栏 -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="nav-logo">吴香伶</a>
+            <a href="#home" class="nav-logo" id="nav-logo"></a>
             <ul class="nav-links">
                 <li><a href="#home">首页</a></li>
                 <li><a href="#education">教育经历</a></li>
@@ -25,32 +25,8 @@
 
     <!-- 首页/个人信息 Hero区域 -->
     <section id="home" class="hero-section">
-        <div class="container hero-content">
-            <div class="profile-photo">
-                <img src="assets/media/image1.jpeg" alt="吴香伶">
-            </div>
-            <div class="profile-text">
-                <h1 class="name">吴香伶</h1>
-                <p class="title">环境科学与工程 | 博士研究生</p>
-                <div class="tags">
-                    <span class="tag">中共党员</span>
-                    <span class="tag">清华大学</span>
-                    <span class="tag">新加坡国立大学</span>
-                </div>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>xxzwuxl@163.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>13551354185</span>
-                    </div>
-                </div>
-                <div class="intro-text">
-                    <p>主要聚焦厌氧氨氧化（Anammox）与微生物燃料电池（MFC）的耦合体系构建，探索复杂生化环境下的功能菌群演替规律与稳定性控制策略。</p>
-                </div>
-            </div>
+        <div class="container hero-content" id="hero-content">
+            <!-- 动态加载 -->
         </div>
     </section>
 
@@ -58,38 +34,8 @@
     <section id="education" class="section-block">
         <div class="container">
             <h2 class="section-title"><i class="fas fa-graduation-cap"></i> 教育经历</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="time">2026.01 - 至今</div>
-                    <div class="content">
-                        <h3>新加坡国立大学 (National University of Singapore)</h3>
-                        <p>环境联合培养博士 | QS排名8</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="time">2023.09 - 至今</div>
-                    <div class="content">
-                        <h3>清华大学</h3>
-                        <p>环境科学与工程 | 博士</p>
-                        <p class="desc">GPA: 3.97/4.00 (前1%)</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="time">2019.09 - 2022.06</div>
-                    <div class="content">
-                        <h3>四川农业大学</h3>
-                        <p>建筑与土木工程 | 硕士</p>
-                        <p class="desc">省优秀毕业生 | 国家奖学金</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="time">2015.09 - 2019.06</div>
-                    <div class="content">
-                        <h3>四川农业大学</h3>
-                        <p>给排水科学与工程 | 学士 (保送研究生)</p>
-                        <p>金融学 | 学士 (双学位)</p>
-                    </div>
-                </div>
+            <div class="timeline" id="education-timeline">
+                <!-- 动态加载 -->
             </div>
         </div>
     </section>
@@ -99,45 +45,25 @@
         <div class="container">
             <h2 class="section-title"><i class="fas fa-flask"></i> 研究方向与科研成果</h2>
             
-            <div class="research-intro card">
-                <h3>研究方向</h3>
-                <p>面向双碳目标的城镇污水处理低碳工艺开发、微生物代谢机理调控及系统工程应用。</p>
-                <p>致力于餐厨废弃物与污水处理的协同资源化路径，并将生化反应机理转化为工业化标准操作规程（SOP），实现工程项目的长效稳定运行与低碳交付。</p>
+            <div class="research-intro card" id="research-intro">
+                <!-- 动态加载 -->
             </div>
             
-            <div class="achievements-highlight">
-                <div class="stat-card">
-                    <i class="fas fa-file-alt"></i>
-                    <span class="number">7</span>
-                    <span class="label">SCI论文 (1作)</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-certificate"></i>
-                    <span class="number">12</span>
-                    <span class="label">授权专利</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-star"></i>
-                    <span class="number">55+</span>
-                    <span class="label">累计 IF</span>
-                </div>
+            <div class="achievements-highlight" id="research-stats">
+                <!-- 动态加载 -->
             </div>
 
             <div class="content-grid">
                 <div class="card">
                     <h3><i class="fas fa-book-open"></i> 代表性论文</h3>
-                    <ul class="list-styled">
-                        <li>Zhang K*, <strong>Wu X (共同一作)</strong>, et al. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors... <em>Chemical Engineering Journal</em> (IF 13.3).</li>
-                        <li>Zhang K*, <strong>Wu X (共同一作)</strong>, et al. The role and related microbial processes of Mn-dependent anaerobic methane oxidation... <em>Journal of Environmental Management</em> (IF 8).</li>
-                        <li>Zhang K*, <strong>Wu X</strong>, et al. CH4 control and associated microbial process from constructed wetland... <em>Journal of Environmental Management</em> (IF 8).</li>
+                    <ul class="list-styled" id="research-papers">
+                        <!-- 动态加载 -->
                     </ul>
                 </div>
                 <div class="card">
                     <h3><i class="fas fa-scroll"></i> 部分授权专利</h3>
-                    <ul class="list-styled">
-                        <li>一种用于降低甲烷、氨氮污染的CW-MFC装置和方法 (ZL 2020 1 1011944.0)</li>
-                        <li>一种微生物燃料电池耦合人工湿地U型装置及运行方法 (ZL 2019 1 1263024.5)</li>
-                        <li>废水脱氮处理系统及其处理方法 (ZL 2023 1 1635783.6)</li>
+                    <ul class="list-styled" id="research-patents">
+                        <!-- 动态加载 -->
                     </ul>
                 </div>
             </div>
@@ -148,47 +74,8 @@
     <section id="projects" class="section-block">
         <div class="container">
             <h2 class="section-title"><i class="fas fa-project-diagram"></i> 主要项目经历</h2>
-            
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>创新创业比赛项目 | 碳链协同与价值转化平台</h3>
-                    <span class="badge">项目负责人 & 队长</span>
-                    <span class="date">2025.03 - 2025.12</span>
-                </div>
-                <div class="project-body">
-                    <ul>
-                        <li><strong>问题定义：</strong>锁定核算标准碎片化及收益错位瓶颈，提出数字化协同方案。</li>
-                        <li><strong>跨界统筹：</strong>领衔清北跨学科团队开发AI碳平台（精度98%），解决人工核算效能痛点。</li>
-                        <li><strong>成果：</strong>获研究生"双碳"赛全国三等奖、清华一等奖、昆山杯优胜奖。</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>深圳市科创委可持续发展专项 | 餐厨垃圾水解液PD/A脱氮工艺研发与应用</h3>
-                    <span class="badge">学生负责人</span>
-                    <span class="date">2022.09 - 至今</span>
-                </div>
-                <div class="project-body">
-                    <ul>
-                        <li><strong>技术研发：</strong>主导研发基于餐厨垃圾的PD/A耦合体系，攻克行业级菌群失稳瓶颈。</li>
-                        <li><strong>商业化落地：</strong>原位转化完全替代外加碳源，成本压降30%~50%，落地50 m³/d示范工程。</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>国家重点研发青年项目 | 酿酒废弃物低碳制备生物基塑料技术</h3>
-                    <span class="badge">主研</span>
-                    <span class="date">2024.10 - 至今</span>
-                </div>
-                <div class="project-body">
-                    <ul>
-                        <li><strong>产品研发：</strong>研发新型生物基材料，使果蔬保质期延长1倍以上，降低原料成40%。</li>
-                    </ul>
-                </div>
+            <div id="projects-list">
+                <!-- 动态加载 -->
             </div>
         </div>
     </section>
@@ -199,54 +86,14 @@
             <div class="grid-2-col">
                 <div>
                     <h2 class="section-title"><i class="fas fa-briefcase"></i> 实习经历</h2>
-                    <div class="timeline compact">
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>新希望五新实业集团有限公司</h3>
-                                <p class="sub">商业管理中心 | 企划部门实习生 | 2020.07 - 2020.09</p>
-                                <p class="desc">输出万字调研报告，5项建议获全案采纳。</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>碧桂园控股有限公司</h3>
-                                <p class="sub">项目营销部 | 营销管理实习生 | 2020.05 - 2020.07</p>
-                                <p class="desc">入职首月即获销冠；转化率大幅优于均值。</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>万科企业股份有限公司</h3>
-                                <p class="sub">数字化科技中心 | 数字化运营实习生 | 2021.02 - 2021.04</p>
-                                <p class="desc">统一全链条200+关键字段口径，建立结构化维护机制。</p>
-                            </div>
-                        </div>
+                    <div class="timeline compact" id="internship-list">
+                        <!-- 动态加载 -->
                     </div>
                 </div>
                 <div>
                     <h2 class="section-title"><i class="fas fa-users"></i> 校园经历</h2>
-                    <div class="timeline compact">
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>清华大学SIGS心理辅导中心</h3>
-                                <p class="sub">辅导员 & 心理社社长 | 2023.03 - 2025.09</p>
-                                <p class="desc">构建中英双语心理教育体系，组织效能提升60%。</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>大学生艺术团</h3>
-                                <p class="sub">舞蹈团团长 | 2016.09 - 2018.09</p>
-                                <p class="desc">首创闭环管理制度，统筹40+场演出，实现校园首冠。</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="content">
-                                <h3>清华大学深环博 23 班</h3>
-                                <p class="sub">班长 | 2023.09 - 2024.09</p>
-                                <p class="desc">获评清华"翘楚班级" (Top 5%)，连续三年互评优秀率100%。</p>
-                            </div>
-                        </div>
+                    <div class="timeline compact" id="campus-list">
+                        <!-- 动态加载 -->
                     </div>
                 </div>
             </div>
@@ -257,40 +104,24 @@
     <section id="skills" class="section-block">
         <div class="container">
             <h2 class="section-title"><i class="fas fa-award"></i> 技能与荣誉</h2>
-            <div class="grid-3-col">
-                <div class="card skill-card">
-                    <h3><i class="fas fa-language"></i> 语言能力</h3>
-                    <p>英语 (CET-6，NUS联培)</p>
-                    <p>德语 (B1水平)</p>
-                    <p>普通话 (二甲)</p>
-                </div>
-                <div class="card skill-card">
-                    <h3><i class="fas fa-chart-bar"></i> 数据与科研</h3>
-                    <p>R, SPSS, Linux (建模统计)</p>
-                    <p>Origin (科学绘图)</p>
-                    <p>MS Office</p>
-                </div>
-                <div class="card skill-card">
-                    <h3><i class="fas fa-palette"></i> 设计与运营</h3>
-                    <p>Ps, Ai, Canva</p>
-                    <p>秀米, 数字化运营工具</p>
-                </div>
+            <div class="grid-3-col" id="skills-list">
+                <!-- 动态加载 -->
             </div>
             
             <div class="card honor-card">
                 <h3><i class="fas fa-trophy"></i> 荣誉奖项</h3>
-                <p>国家奖学金、省优秀毕业生、优秀学生干部、清华综合奖学金、优秀社会工作奖学金、四川农业大学年度优秀研究生标兵、硕士学业奖学金、优秀学术成果、优秀文艺骨干等。</p>
+                <p id="honors-content"><!-- 动态加载 --></p>
             </div>
 
             <div class="card interest-card">
                 <h3><i class="fas fa-heart"></i> 兴趣爱好</h3>
-                <p>羽毛球、古典舞、游泳、足球、音乐、徒步</p>
+                <p id="interests-content"><!-- 动态加载 --></p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Xiangling Wu. All Rights Reserved.</p>
+        <p id="footer-text">&copy; 2025 Xiangling Wu. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>

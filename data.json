@@ -1,0 +1,157 @@
+{
+    "profile": {
+        "name": "吴香伶",
+        "title": "环境科学与工程 | 博士研究生",
+        "tags": [
+            "中共党员",
+            "清华大学",
+            "新加坡国立大学"
+        ],
+        "contact": {
+            "email": "xxzwuxl@163.com",
+            "phone": "13551354185"
+        },
+        "intro": "主要聚焦厌氧氨氧化（Anammox）与微生物燃料电池（MFC）的耦合体系构建，探索复杂生化环境下的功能菌群演替规律与稳定性控制策略。",
+        "avatar": "assets/media/image1.jpeg"
+    },
+    "education": [
+        {
+            "time": "2026.01 - 至今",
+            "school": "新加坡国立大学 (National University of Singapore)",
+            "major": "环境联合培养博士 | QS排名8",
+            "desc": ""
+        },
+        {
+            "time": "2023.09 - 至今",
+            "school": "清华大学",
+            "major": "环境科学与工程 | 博士",
+            "desc": "GPA: 3.97/4.00 (前1%)"
+        },
+        {
+            "time": "2019.09 - 2022.06",
+            "school": "四川农业大学",
+            "major": "建筑与土木工程 | 硕士",
+            "desc": "省优秀毕业生 | 国家奖学金"
+        },
+        {
+            "time": "2015.09 - 2019.06",
+            "school": "四川农业大学",
+            "major": "给排水科学与工程 | 学士 (保送研究生)\n金融学 | 学士 (双学位)",
+            "desc": ""
+        }
+    ],
+    "research": {
+        "intro": [
+            "面向双碳目标的城镇污水处理低碳工艺开发、微生物代谢机理调控及系统工程应用。",
+            "致力于餐厨废弃物与污水处理的协同资源化路径，并将生化反应机理转化为工业化标准操作规程（SOP），实现工程项目的长效稳定运行与低碳交付。"
+        ],
+        "stats": [
+            {
+                "icon": "fas fa-file-alt",
+                "number": "7",
+                "label": "SCI论文 (1作)"
+            },
+            {
+                "icon": "fas fa-certificate",
+                "number": "12",
+                "label": "授权专利"
+            },
+            {
+                "icon": "fas fa-star",
+                "number": "55+",
+                "label": "累计 IF"
+            }
+        ],
+        "papers": [
+            "Zhang K*, <strong>Wu X (共同一作)</strong>, et al. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors... <em>Chemical Engineering Journal</em> (IF 13.3).",
+            "Zhang K*, <strong>Wu X (共同一作)</strong>, et al. The role and related microbial processes of Mn-dependent anaerobic methane oxidation... <em>Journal of Environmental Management</em> (IF 8).",
+            "Zhang K*, <strong>Wu X</strong>, et al. CH4 control and associated microbial process from constructed wetland... <em>Journal of Environmental Management</em> (IF 8)."
+        ],
+        "patents": [
+            "一种用于降低甲烷、氨氮污染的CW-MFC装置和方法 (ZL 2020 1 1011944.0)",
+            "一种微生物燃料电池耦合人工湿地U型装置及运行方法 (ZL 2019 1 1263024.5)",
+            "废水脱氮处理系统及其处理方法 (ZL 2023 1 1635783.6)"
+        ]
+    },
+    "projects": [
+        {
+            "name": "创新创业比赛项目 | 碳链协同与价值转化平台",
+            "role": "项目负责人 & 队长",
+            "date": "2025.03 - 2025.12",
+            "details": [
+                "<strong>问题定义：</strong>锁定核算标准碎片化及收益错位瓶颈，提出数字化协同方案。",
+                "<strong>跨界统筹：</strong>领衔清北跨学科团队开发AI碳平台（精度98%），解决人工核算效能痛点。",
+                "<strong>成果：</strong>获研究生\"双碳\"赛全国三等奖、清华一等奖、昆山杯优胜奖。"
+            ]
+        },
+        {
+            "name": "深圳市科创委可持续发展专项 | 餐厨垃圾水解液PD/A脱氮工艺研发与应用",
+            "role": "学生负责人",
+            "date": "2022.09 - 至今",
+            "details": [
+                "<strong>技术研发：</strong>主导研发基于餐厨垃圾的PD/A耦合体系，攻克行业级菌群失稳瓶颈。",
+                "<strong>商业化落地：</strong>原位转化完全替代外加碳源，成本压降30%~50%，落地50 m³/d示范工程。"
+            ]
+        },
+        {
+            "name": "国家重点研发青年项目 | 酿酒废弃物低碳制备生物基塑料技术",
+            "role": "主研",
+            "date": "2024.10 - 至今",
+            "details": [
+                "<strong>产品研发：</strong>研发新型生物基材料，使果蔬保质期延长1倍以上，降低原料成40%。"
+            ]
+        }
+    ],
+    "internships": [
+        {
+            "company": "新希望五新实业集团有限公司",
+            "position": "商业管理中心 | 企划部门实习生 | 2020.07 - 2020.09",
+            "desc": "输出万字调研报告，5项建议获全案采纳。"
+        },
+        {
+            "company": "碧桂园控股有限公司",
+            "position": "项目营销部 | 营销管理实习生 | 2020.05 - 2020.07",
+            "desc": "入职首月即获销冠；转化率大幅优于均值。"
+        },
+        {
+            "company": "万科企业股份有限公司",
+            "position": "数字化科技中心 | 数字化运营实习生 | 2021.02 - 2021.04",
+            "desc": "统一全链条200+关键字段口径，建立结构化维护机制。"
+        }
+    ],
+    "campus": [
+        {
+            "org": "清华大学SIGS心理辅导中心",
+            "role": "辅导员 & 心理社社长 | 2023.03 - 2025.09",
+            "desc": "构建中英双语心理教育体系，组织效能提升60%。"
+        },
+        {
+            "org": "大学生艺术团",
+            "role": "舞蹈团团长 | 2016.09 - 2018.09",
+            "desc": "首创闭环管理制度，统筹40+场演出，实现校园首冠。"
+        },
+        {
+            "org": "清华大学深环博 23 班",
+            "role": "班长 | 2023.09 - 2024.09",
+            "desc": "获评清华\"翘楚班级\" (Top 5%)，连续三年互评优秀率100%。"
+        }
+    ],
+    "skills": {
+        "languages": [
+            "英语 (CET-6，NUS联培)",
+            "德语 (B1水平)",
+            "普通话 (二甲)"
+        ],
+        "data_research": [
+            "R, SPSS, Linux (建模统计)",
+            "Origin (科学绘图)",
+            "MS Office"
+        ],
+        "design_ops": [
+            "Ps, Ai, Canva",
+            "秀米, 数字化运营工具"
+        ]
+    },
+    "honors": "国家奖学金、省优秀毕业生、优秀学生干部、清华综合奖学金、优秀社会工作奖学金、四川农业大学年度优秀研究生标兵、硕士学业奖学金、优秀学术成果、优秀文艺骨干等。",
+    "interests": "羽毛球、古典舞、游泳、足球、音乐、徒步"
+}
