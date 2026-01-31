@@ -20,24 +20,23 @@
             "email": "xxzwuxl@163.com",
             "phone": "13551354185"
         },
-        "intro": "主要聚焦厌氧氨氧化（Anammox）与微生物燃料电池（MFC）的耦合体系构建，探索复杂生化环境下的功能菌群演替规律与稳定性控制策略。",
         "avatar": "assets/media/image1.jpeg"
     },
     "news": [
         {
-            "date": "2025.01",
-            "title": "入选新加坡国立大学联合培养博士项目",
-            "content": "正式开启在 NUS 的科研旅程，期待在环境领域探索更多可能。"
+            "date": "2026.01",
+            "title": "开始在新加坡国立大学的联合培养博士项目",
+            "content": "正式开启在 NUS 的科研旅程，期待在环境&人工智能交叉领域探索更多可能。"
         },
         {
-            "date": "2024.12",
-            "title": "荣获清华大学综合奖学金",
-            "content": "表彰在学术科研与社会工作方面的突出表现。"
+            "date": "2025.12",
+            "title": "参加亚洲大学联盟研究生论坛暨粤港澳大湾区南山学术论坛",
+            "content": "就题“Use of Polyurethane Sponge for rapid start-up of anammox:microbial enrichment and spatial distribution of functional genes”进行学术汇报，并受邀在闭幕式作为学生代表发言"
         },
         {
-            "date": "2024.10",
-            "title": "新论文发表于 Journal of Environmental Management",
-            "content": "关于 Mn-dependent AOM 的研究成果获刊登。"
+            "date": "2025.07",
+            "title": "参加厌氧氨氧化国际研讨会暨首届全国厌氧氨氧化技术交流大会",
+            "content": "就题“利用聚氨酯海绵载体加速移动床生物膜反应器中厌氧氨氧化工艺的启动”进行口头汇报并荣获“Best presentation Award”"
         }
     ],
     "education": [
@@ -69,34 +68,57 @@
     "research": {
         "intro": [
             "面向双碳目标的城镇污水处理低碳工艺开发、微生物代谢机理调控及系统工程应用。",
-            "致力于餐厨废弃物与污水处理的协同资源化路径，并将生化反应机理转化为工业化标准操作规程（SOP），实现工程项目的长效稳定运行与低碳交付。"
+            "主要聚焦厌氧氨氧化（Anammox）与微生物燃料电池（MFC）的耦合体系构建，探索复杂生化环境下的功能菌群演替规律与稳定性控制策略。致力于餐厨废弃物与污水处理的协同资源化路径，并将生化反应机理转化为工业化标准操作规程（SOP），实现工程项目的长效稳定运行与低碳交付。"
         ],
         "stats": [
             {
                 "icon": "fas fa-file-alt",
-                "number": "7",
-                "label": "SCI论文 (1作)"
+                "number": "8",
+                "label": "已发表论文"
             },
             {
                 "icon": "fas fa-certificate",
                 "number": "12",
-                "label": "授权专利"
+                "label": "申请及授权专利"
             },
             {
                 "icon": "fas fa-star",
                 "number": "55+",
                 "label": "累计 IF"
+            },
+            {
+                "icon": "fas fa-microphone",
+                "number": "4",
+                "label": "口头汇报"
             }
         ],
         "papers": [
-            "Zhang K*, <strong>Wu X (共同一作)</strong>, et al. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors... <em>Chemical Engineering Journal</em> (IF 13.3).",
-            "Zhang K*, <strong>Wu X (共同一作)</strong>, et al. The role and related microbial processes of Mn-dependent anaerobic methane oxidation... <em>Journal of Environmental Management</em> (IF 8).",
-            "Zhang K*, <strong>Wu X</strong>, et al. CH4 control and associated microbial process from constructed wetland... <em>Journal of Environmental Management</em> (IF 8)."
+            "[1] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2022. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors in constructed wetland and the related mechanisms of carbon, nitrogen, sulfur cycles. Chemical Engineering Journal (IF 13.3，36 Cites), 133663, 2021.11.18",
+            "[2] Ke Zhang*,1, Xiangling Wu1, Jia Chen, et al., 2021. The role and related microbial processes of Mn-dependent anaerobic methane oxidation in reducing methane emissions from constructed wetland-microbial fuel. Journal of Environmental Management (IF 8，70 Cites), 294, 112935, 2021.6.10 ",
+            "[3] Ke Zhang*, Xiangling Wu, Hongbing Luo, et al., 2020. CH4 control and associated microbial process from constructed wetland (CW) by microbial fuel cells (MFC). Journal of Environmental Management (IF 8, 28 Cites), 260, 110071, 2020. 01. 25",
+            "[4] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2021. Roles of external circuit and rhizosphere location in CH4 emission control in sequencing batch flow constructed wetland-microbial fuel cell. Journal of Environmental Chemical Engineering (IF 7.4, 14 Cites), 9, 106583, 2021.10.16 ",
+            "[5] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2021. Effects of plant location on methane emission, bioelectricity generation，pollutant removal and related biological processes in microbial fuel cell constructed wetland. Journal of Water Process Engineering (IF 6.3, 20 Cites), 43, 102283, 2021.9.1", 
+            "[6] Ke Zhang*, Xiangling Wu, Wei Wang, et al., 2021. Effects of bioelectrochemical technique on methane emission and energy recovery in constructed wetlands(CWs) and related biological mechanisms, Environmental Technology (IF 2.2), 9, 106583, 2021.9.20 ",
+            "[7] Ke Zhang*,1, Xiangling Wu1, Hongbing Luo, et al., 2020. Biochemical pathways and enhanced degradation of dioctyl phthalate (DEHP) by sodium alginate immobilization in MBR system. Water Science & Technology (IF 2.5), 83(2)",
+            "[8] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2019. Biodegradation of diethyl phthalate by Pseudomonas sp. BZD-33 isolated from active sludge. Earth and Environmental Science（EI Regular Issue）, 295, 012070"
         ],
         "patents": [
-            "一种用于降低甲烷、氨氮污染的CW-MFC装置和方法 (ZL 2020 1 1011944.0)",
-            "一种微生物燃料电池耦合人工湿地U型装置及运行方法 (ZL 2019 1 1263024.5)",
-            "废水脱氮处理系统及其处理方法 (ZL 2023 1 1635783.6)"
+            "发明专利：",
+            "[1] 张可，吴香伶，王威，罗鸿兵，陈佳，杨斯乔，赵洲，王婷婷，曹惠玲，郭静悦. 一种用于降低甲烷、氨氮污染的CW-MFC装置和方法.  ZL 2020 1 1011944.0, 2021.8.24",
+            "[2] 张可，吴香伶，陈佳，陈伟，陈剑，杨斯乔.一种微生物燃料电池耦合人工湿地U型装置及运行方法.  ZL 2019 1 1263024.5，2021.10.19",
+            "[3] 林琳，吴香伶，李晓岩，孙德寿，李颖瑜，祝承志. 废水脱氮处理系统及其处理方法. ZL 2023 1 1635783.6，2025.11.11",
+            "[4] 林琳,吴香伶,孙德寿,李晓岩,李炳. 污水处理装置，202410646050.0, 2024.5.23",
+            "[5] 林琳,吴香伶,李晓岩,孙德寿,李颖瑜,祝承志. 废水脱氮处理系统及其处理方法. 202311635783.6, 2023.11.30",
+            "国际专利：",
+            "[6] Ke Zhang, Xiangling Wu, Jia Chen, Hongbing Luo, Wei Wang, Siqiao Yang, Zhou Zhao, Tingting Wang, Huiling Cao, Jingyue Guo, Preparation method of sodium alginate composite immobilized microbial inoculum capable of remarkably improving degradation efficiency of quinclorac, 2020103347, 2021.1.6",
+            "[7] Ke Zhang, Xiangling Wu, Wei Wang, Hongbing Luo, Jia Chen, Siqiao Yang, Zhou Zhao, Tingting Wang, Huiling Cao, Jingyue Guo, A device for enhancing denitrification by combining a horizontal subsurface flow with a vertical flow CW-MFC system in series and an operation method thereof, 2020103245, 2020.12.23",
+            "实用新型专利：",
+            "[8] 张可，吴香伶，陈剑，陈伟. 基于人工湿地耦合微生物燃料电池的公路径流处理系统. ZL 2019 2 0036586.5，2019.11.5",
+            "[9] 张可，吴香伶，陈剑，陈佳，杨斯乔. 一种防空蠕动的蠕动泵. ZL 2019 2 0489398.8，2019.11.22",
+            "[10] 张可，吴香伶，陈剑，陈伟，陈佳. 一种人工湿地耦合微生物燃料电池公路污水处理系统. ZL 2019 2 0035992. X，2019.12.3",
+            "软件著作权：",
+            "[11] 张可，吴香伶，陈剑，陈佳，王婷婷，夏俊文，黄文亚，杨清池. 人工湿地耦合微生物燃料电池实验自动化控制系统V1.0. 2019SR0516626，2019.5.24",
+            "[12] 张可，吴香伶，陈剑，杨斯乔，陈佳，周紫萱，周文妮，赵洲. 微生物燃料电池耦合人工湿地生物传感器水质监测系统 V1.0. 2020SR0086259，2020.1.16"
         ]
     },
     "projects": [
@@ -148,7 +170,7 @@
     "campus": [
         {
             "org": "清华大学SIGS心理辅导中心",
-            "role": "辅导员 & 心理社社长 | 2023.03 - 2025.09",
+            "role": "清华“双肩挑”辅导员&心理社社长  | 2023.03 - 2025.09",
             "desc": "构建中英双语心理支持体系，组织效能提升60%。"
         },
         {
@@ -175,18 +197,18 @@
         ],
         "design_ops": [
             "Ps, Ai, Canva",
-            "秀米, 数字化运营工具"
+            "秀米等数字化运营工具"
         ]
     },
-    "honors": "国家奖学金、省优秀毕业生、川农大学年度优秀研究生（top 0.6%）、清华综合奖学金、SIGS优秀学生干部、SIGS优秀社会工作奖学金、硕士学业奖学金、优秀学术成果、优秀文艺骨干等",
+    "honors": "国家奖学金、省优秀毕业生、川农大学年度优秀研究生（top 0.6%）、清华综合奖学金、SIGS优秀学生干部、SIGS优秀社会工作奖学金、硕士学业奖学金、优秀学术成果、最佳汇报奖、优秀文艺骨干等",
     "interests": "羽毛球、古典舞、游泳、足球、音乐、徒步",
     "section_titles": {
         "news": "最近动态",
         "education": "教育经历",
         "research": "研究方向与科研成果",
         "research_direction": "研究方向",
-        "papers": "代表性论文",
-        "patents": "部分授权专利",
+        "papers": "已发表论文",
+        "patents": "申请专利",
         "projects": "主要项目经历",
         "internships": "实习经历",
         "campus": "校园经历",

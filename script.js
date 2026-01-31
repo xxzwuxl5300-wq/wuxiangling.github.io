@@ -91,7 +91,12 @@ function renderProfile(profile) {
     document.title = `${profile.name} | ${currentLang === 'zh' ? '个人主页' : 'Portfolio'}`;
 
     const heroContent = document.getElementById('hero-content');
-    const tagsHtml = profile.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+    const tagsHtml = (profile.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+    const introHtml = profile.intro ? `
+        <div class="intro-text">
+            <p>${profile.intro}</p>
+        </div>
+    ` : '';
     
     heroContent.innerHTML = `
         <div class="profile-photo">
@@ -113,9 +118,7 @@ function renderProfile(profile) {
                     <span>${profile.contact.phone}</span>
                 </div>
             </div>
-            <div class="intro-text">
-                <p>${profile.intro}</p>
-            </div>
+            ${introHtml}
         </div>
     `;
 }
@@ -168,11 +171,30 @@ function renderResearch(research, titles) {
 
     // 论文
     const papersContainer = document.getElementById('research-papers');
-    papersContainer.innerHTML = research.papers.map(paper => `<li>${paper}</li>`).join('');
+    papersContainer.innerHTML = research.papers.map((paper, idx) => {
+        const m = paper.match(/^\[(\d+)\]\s*(.*)$/);
+        if (m) {
+            return `<li><span class="paper-index">[${m[1]}]</span> ${m[2]}</li>`;
+        }
+        return `<li><span class="paper-index">[${idx + 1}]</span> ${paper}</li>`;
+    }).join('');
 
     // 专利
     const patentsContainer = document.getElementById('research-patents');
-    patentsContainer.innerHTML = research.patents.map(patent => `<li>${patent}</li>`).join('');
+    patentsContainer.innerHTML = research.patents.map((entry, idx) => {
+        const text = (entry || '').trim();
+        const catMatchZh = text.match(/^(发明专利|国际专利|实用新型专利|软件著作权)：$/);
+        const catMatchEn = text.match(/^(Invention Patents|International Patents|Utility Model Patents|Software Copyright):$/);
+        if (catMatchZh || catMatchEn) {
+            const label = (catMatchZh ? catMatchZh[1] : catMatchEn[1]);
+            return `<li><span class="category-label">${label}</span></li>`;
+        }
+        const m = text.match(/^\[(\d+)\]\s*(.*)$/);
+        if (m) {
+            return `<li><span class="paper-index">[${m[1]}]</span> ${m[2]}</li>`;
+        }
+        return `<li>${text}</li>`;
+    }).join('');
 }
 
 function renderProjects(projects) {

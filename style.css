@@ -339,7 +339,7 @@ a {
 
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
 }
 
@@ -458,6 +458,40 @@ a {
     font-weight: bold;
     position: absolute;
     left: 0;
+}
+
+/* Papers list: use number tag instead of blue dot */
+#research-papers li {
+    padding-left: 0;
+}
+#research-papers li::before {
+    content: none;
+}
+.paper-index {
+    display: inline-block;
+    background: #e1f0fa;
+    color: var(--accent-color);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+/* Patents section: remove dots and style headings/index */
+#research-patents li {
+    padding-left: 0;
+}
+#research-patents li::before {
+    content: none;
+}
+.category-label {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+/* Prevent wrapping in timeline time column */
+.timeline-item .time {
+    white-space: nowrap;
 }
 
 /* Footer */
