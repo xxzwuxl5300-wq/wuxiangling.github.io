@@ -20,31 +20,30 @@
             "email": "xxzwuxl@163.com",
             "phone": "13551354185"
         },
-        "intro": "Focusing on the construction of coupled systems of Anaerobic Ammonium Oxidation (Anammox) and Microbial Fuel Cells (MFC), exploring the succession laws of functional microbial communities and stability control strategies in complex biochemical environments.",
         "avatar": "assets/media/image1.jpeg"
     },
     "news": [
         {
-            "date": "Jan 2025",
-            "title": "Selected for National University of Singapore Joint PhD Program",
-            "content": "Officially started the research journey at NUS, looking forward to exploring more possibilities in the environmental field."
+            "date": "Jan 2026",
+            "title": "Started Joint PhD Program at National University of Singapore",
+            "content": "Officially commenced research at NUS; exploring cross-disciplinary paths in environment & AI."
         },
         {
-            "date": "Dec 2024",
-            "title": "Awarded Tsinghua University Comprehensive Scholarship",
-            "content": "Recognition for outstanding performance in academic research and social work."
+            "date": "Dec 2025",
+            "title": "Participated in AUA Graduate Forum & GBA Nanshan Academic Forum",
+            "content": "Presented the topic “Use of Polyurethane Sponge for rapid start-up of anammox: microbial enrichment and spatial distribution of functional genes”, and was invited to deliver a speech as student representative at the closing ceremony."
         },
         {
-            "date": "Oct 2024",
-            "title": "New Paper Published in Journal of Environmental Management",
-            "content": "Research findings on Mn-dependent AOM have been published."
+            "date": "Jul 2025",
+            "title": "Participated in International Anammox Symposium & First National Anammox Technology Exchange Conference",
+            "content": "Delivered an oral presentation on “Accelerating start-up of anammox in MBBR using polyurethane sponge carriers” and won the Best Presentation Award."
         }
     ],
     "education": [
         {
             "time": "Jan 2026 - Present",
             "school": "National University of Singapore (NUS)",
-            "major": "Joint Ph.D. in Environmental Engineering | QS Rank 8",
+            "major": "Environmental Science & Engineering (Joint Ph.D.) | QS Rank 8",
             "desc": ""
         },
         {
@@ -74,29 +73,52 @@
         "stats": [
             {
                 "icon": "fas fa-file-alt",
-                "number": "7",
-                "label": "SCI Papers (1st Author)"
+                "number": "8",
+                "label": "Published Papers"
             },
             {
                 "icon": "fas fa-certificate",
                 "number": "12",
-                "label": "Authorized Patents"
+                "label": "Applications & Authorized Patents"
             },
             {
                 "icon": "fas fa-star",
                 "number": "55+",
                 "label": "Cumulative IF"
+            },
+            {
+                "icon": "fas fa-microphone",
+                "number": "4",
+                "label": "Oral Presentations"
             }
         ],
         "papers": [
-            "Zhang K*, <strong>Wu X (Co-first)</strong>, et al. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors... <em>Chemical Engineering Journal</em> (IF 13.3).",
-            "Zhang K*, <strong>Wu X (Co-first)</strong>, et al. The role and related microbial processes of Mn-dependent anaerobic methane oxidation... <em>Journal of Environmental Management</em> (IF 8).",
-            "Zhang K*, <strong>Wu X</strong>, et al. CH4 control and associated microbial process from constructed wetland... <em>Journal of Environmental Management</em> (IF 8)."
+            "[1] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2022. Anaerobic oxidation of methane (AOM) driven by multiple electron acceptors in constructed wetland and the related mechanisms of carbon, nitrogen, sulfur cycles. Chemical Engineering Journal (IF 13.3, 36 Cites), 133663, 2021.11.18",
+            "[2] Ke Zhang*,1, Xiangling Wu1, Jia Chen, et al., 2021. The role and related microbial processes of Mn-dependent anaerobic methane oxidation in reducing methane emissions from constructed wetland-microbial fuel. Journal of Environmental Management (IF 8, 70 Cites), 294, 112935, 2021.6.10",
+            "[3] Ke Zhang*, Xiangling Wu, Hongbing Luo, et al., 2020. CH4 control and associated microbial process from constructed wetland (CW) by microbial fuel cells (MFC). Journal of Environmental Management (IF 8, 28 Cites), 260, 110071, 2020.01.25",
+            "[4] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2021. Roles of external circuit and rhizosphere location in CH4 emission control in sequencing batch flow constructed wetland-microbial fuel cell. Journal of Environmental Chemical Engineering (IF 7.4, 14 Cites), 9, 106583, 2021.10.16",
+            "[5] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2021. Effects of plant location on methane emission, bioelectricity generation, pollutant removal and related biological processes in microbial fuel cell constructed wetland. Journal of Water Process Engineering (IF 6.3, 20 Cites), 43, 102283, 2021.9.1",
+            "[6] Ke Zhang*, Xiangling Wu, Wei Wang, et al., 2021. Effects of bioelectrochemical technique on methane emission and energy recovery in constructed wetlands (CWs) and related biological mechanisms, Environmental Technology (IF 2.2), 9, 106583, 2021.9.20",
+            "[7] Ke Zhang*,1, Xiangling Wu1, Hongbing Luo, et al., 2020. Biochemical pathways and enhanced degradation of dioctyl phthalate (DEHP) by sodium alginate immobilization in MBR system. Water Science & Technology (IF 2.5), 83(2)",
+            "[8] Ke Zhang*,1, Xiangling Wu1, Wei Wang, et al., 2019. Biodegradation of diethyl phthalate by Pseudomonas sp. BZD-33 isolated from active sludge. Earth and Environmental Science (EI Regular Issue), 295, 012070"
         ],
         "patents": [
-            "A CW-MFC device and method for reducing methane and ammonia nitrogen pollution (ZL 2020 1 1011944.0)",
-            "A U-shaped device and operation method for microbial fuel cell coupled constructed wetland (ZL 2019 1 1263024.5)",
-            "Wastewater denitrification treatment system and its treatment method (ZL 2023 1 1635783.6)"
+            "Invention Patents:",
+            "[1] Zhang Ke, Wu Xiangling, Wang Wei, Luo Hongbing, Chen Jia, Yang Siqiao, Zhou Zhao, Wang Tingting, Cao Huiling, Guo Jingyue. A CW-MFC device and method for reducing methane and ammonia nitrogen pollution. ZL 2020 1 1011944.0, 2021.8.24",
+            "[2] Zhang Ke, Wu Xiangling, Chen Jia, Chen Wei, Chen Jian, Yang Siqiao. A U-shaped device and operation method for microbial fuel cell coupled constructed wetland. ZL 2019 1 1263024.5, 2021.10.19",
+            "[3] Lin Lin, Wu Xiangling, Li Xiaoyan, Sun Deshou, Li Yingyu, Zhu Chengzhi. Wastewater denitrification treatment system and its treatment method. ZL 2023 1 1635783.6, 2025.11.11",
+            "[4] Lin Lin, Wu Xiangling, Sun Deshou, Li Xiaoyan, Li Bing. Sewage treatment device, 202410646050.0, 2024.5.23",
+            "[5] Lin Lin, Wu Xiangling, Li Xiaoyan, Sun Deshou, Li Yingyu, Zhu Chengzhi. Wastewater denitrification treatment system and its treatment method. 202311635783.6, 2023.11.30",
+            "International Patents:",
+            "[6] Ke Zhang, Xiangling Wu, Jia Chen, Hongbing Luo, Wei Wang, Siqiao Yang, Zhou Zhao, Tingting Wang, Huiling Cao, Jingyue Guo, Preparation method of sodium alginate composite immobilized microbial inoculum capable of remarkably improving degradation efficiency of quinclorac, 2020103347, 2021.1.6",
+            "[7] Ke Zhang, Xiangling Wu, Wei Wang, Hongbing Luo, Jia Chen, Siqiao Yang, Zhou Zhao, Tingting Wang, Huiling Cao, Jingyue Guo, A device for enhancing denitrification by combining a horizontal subsurface flow with a vertical flow CW-MFC system in series and an operation method thereof, 2020103245, 2020.12.23",
+            "Utility Model Patents:",
+            "[8] Zhang Ke, Wu Xiangling, Chen Jian, Chen Wei. Highway runoff treatment system based on constructed wetland coupled with microbial fuel cell. ZL 2019 2 0036586.5, 2019.11.5",
+            "[9] Zhang Ke, Wu Xiangling, Chen Jian, Chen Jia, Yang Siqiao. A peristaltic pump with anti-air suction. ZL 2019 2 0489398.8, 2019.11.22",
+            "[10] Zhang Ke, Wu Xiangling, Chen Jian, Chen Wei, Chen Jia. Highway sewage treatment system by constructed wetland coupled with microbial fuel cell. ZL 2019 2 0035992.X, 2019.12.3",
+            "Software Copyright:",
+            "[11] Zhang Ke, Wu Xiangling, Chen Jian, Chen Jia, Wang Tingting, Xia Junwen, Huang Wenya, Yang Qingchi. Automatic control system for constructed wetland coupled microbial fuel cell experiments V1.0. 2019SR0516626, 2019.5.24",
+            "[12] Zhang Ke, Wu Xiangling, Chen Jian, Yang Siqiao, Chen Jia, Zhou Zixuan, Zhou Wenni, Zhou Zhao. Microbial fuel cell coupled constructed wetland biosensor water quality monitoring system V1.0. 2020SR0086259, 2020.1.16"
         ]
     },
     "projects": [
@@ -178,15 +200,15 @@
             "Xiumi, Digital Operation Tools"
         ]
     },
-    "honors": "National Scholarship, Provincial Outstanding Graduate, Outstanding Student Cadre, Tsinghua Comprehensive Scholarship, Outstanding Social Work Scholarship, Sichuan Agricultural University Annual Outstanding Graduate Student Model, Master's Academic Scholarship, Outstanding Academic Achievement, Outstanding Literary and Artistic Backbone, etc.",
+    "honors": "National Scholarship, Provincial Outstanding Graduate, Outstanding Student Cadre, Tsinghua Comprehensive Scholarship, Outstanding Social Work Scholarship, Sichuan Agricultural University Annual Outstanding Graduate Student Model, Master's Academic Scholarship, Outstanding Academic Achievement, Best Presentation Award, Outstanding Literary and Artistic Backbone, etc.",
     "interests": "Badminton, Classical Dance, Swimming, Football, Music, Hiking",
     "section_titles": {
         "news": "Latest News",
         "education": "Education",
         "research": "Research & Achievements",
         "research_direction": "Research Direction",
-        "papers": "Representative Papers",
-        "patents": "Authorized Patents",
+        "papers": "Published Papers",
+        "patents": "Applications & Authorized Patents",
         "projects": "Key Projects",
         "internships": "Internships",
         "campus": "Campus Experience",
