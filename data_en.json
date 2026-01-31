@@ -5,7 +5,8 @@
         { "id": "research", "text": "Research" },
         { "id": "projects", "text": "Projects" },
         { "id": "experience", "text": "Experience" },
-        { "id": "skills", "text": "Skills & Honors" }
+        { "id": "skills", "text": "Skills & Honors" },
+        { "id": "news", "text": "Latest News" }
     ],
     "profile": {
         "name": "Xiangling Wu",
@@ -22,6 +23,23 @@
         "intro": "Focusing on the construction of coupled systems of Anaerobic Ammonium Oxidation (Anammox) and Microbial Fuel Cells (MFC), exploring the succession laws of functional microbial communities and stability control strategies in complex biochemical environments.",
         "avatar": "assets/media/image1.jpeg"
     },
+    "news": [
+        {
+            "date": "Jan 2025",
+            "title": "Selected for National University of Singapore Joint PhD Program",
+            "content": "Officially started the research journey at NUS, looking forward to exploring more possibilities in the environmental field."
+        },
+        {
+            "date": "Dec 2024",
+            "title": "Awarded Tsinghua University Comprehensive Scholarship",
+            "content": "Recognition for outstanding performance in academic research and social work."
+        },
+        {
+            "date": "Oct 2024",
+            "title": "New Paper Published in Journal of Environmental Management",
+            "content": "Research findings on Mn-dependent AOM have been published."
+        }
+    ],
     "education": [
         {
             "time": "Jan 2026 - Present",
@@ -163,6 +181,7 @@
     "honors": "National Scholarship, Provincial Outstanding Graduate, Outstanding Student Cadre, Tsinghua Comprehensive Scholarship, Outstanding Social Work Scholarship, Sichuan Agricultural University Annual Outstanding Graduate Student Model, Master's Academic Scholarship, Outstanding Academic Achievement, Outstanding Literary and Artistic Backbone, etc.",
     "interests": "Badminton, Classical Dance, Swimming, Football, Music, Hiking",
     "section_titles": {
+        "news": "Latest News",
         "education": "Education",
         "research": "Research & Achievements",
         "research_direction": "Research Direction",

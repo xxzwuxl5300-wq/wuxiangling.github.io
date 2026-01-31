@@ -5,7 +5,8 @@
         { "id": "research", "text": "研究成果" },
         { "id": "projects", "text": "项目经历" },
         { "id": "experience", "text": "实习与校园" },
-        { "id": "skills", "text": "技能与荣誉" }
+        { "id": "skills", "text": "技能与荣誉" },
+        { "id": "news", "text": "最近动态" }
     ],
     "profile": {
         "name": "吴香伶",
@@ -22,6 +23,23 @@
         "intro": "主要聚焦厌氧氨氧化（Anammox）与微生物燃料电池（MFC）的耦合体系构建，探索复杂生化环境下的功能菌群演替规律与稳定性控制策略。",
         "avatar": "assets/media/image1.jpeg"
     },
+    "news": [
+        {
+            "date": "2025.01",
+            "title": "入选新加坡国立大学联合培养博士项目",
+            "content": "正式开启在 NUS 的科研旅程，期待在环境领域探索更多可能。"
+        },
+        {
+            "date": "2024.12",
+            "title": "荣获清华大学综合奖学金",
+            "content": "表彰在学术科研与社会工作方面的突出表现。"
+        },
+        {
+            "date": "2024.10",
+            "title": "新论文发表于 Journal of Environmental Management",
+            "content": "关于 Mn-dependent AOM 的研究成果获刊登。"
+        }
+    ],
     "education": [
         {
             "time": "2026.01 - 至今",
@@ -163,6 +181,7 @@
     "honors": "国家奖学金、省优秀毕业生、川农大学年度优秀研究生（top 0.6%）、清华综合奖学金、SIGS优秀学生干部、SIGS优秀社会工作奖学金、硕士学业奖学金、优秀学术成果、优秀文艺骨干等",
     "interests": "羽毛球、古典舞、游泳、足球、音乐、徒步",
     "section_titles": {
+        "news": "最近动态",
         "education": "教育经历",
         "research": "研究方向与科研成果",
         "research_direction": "研究方向",

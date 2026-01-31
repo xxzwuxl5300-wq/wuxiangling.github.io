@@ -37,12 +37,14 @@ function updateLangButton() {
 
 function loadData(lang) {
     const filename = lang === 'zh' ? 'data.json' : 'data_en.json';
-    fetch(filename)
+    // 添加时间戳防止缓存
+    fetch(`${filename}?t=${new Date().getTime()}`)
         .then(response => response.json())
         .then(data => {
             renderNavbar(data.navbar);
             renderSectionTitles(data.section_titles);
             renderProfile(data.profile);
+            renderNews(data.news);
             renderEducation(data.education);
             renderResearch(data.research, data.section_titles);
             renderProjects(data.projects);
@@ -64,6 +66,7 @@ function renderNavbar(navbar) {
 
 function renderSectionTitles(titles) {
     if (!titles) return;
+    setText('title-news', titles.news);
     setText('title-education', titles.education);
     setText('title-research', titles.research);
     setText('title-papers', titles.papers);
@@ -115,6 +118,20 @@ function renderProfile(profile) {
             </div>
         </div>
     `;
+}
+
+function renderNews(news) {
+    const container = document.getElementById('news-list');
+    if (!container || !news) return;
+    container.innerHTML = news.map(item => `
+        <div class="timeline-item">
+            <div class="time">${item.date}</div>
+            <div class="content">
+                <h3>${item.title}</h3>
+                <p>${item.content}</p>
+            </div>
+        </div>
+    `).join('');
 }
 
 function renderEducation(education) {
