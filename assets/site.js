@@ -7,6 +7,48 @@
   let soundOn = localStorage.getItem('xl-sound') === 'on';
   let audio;
 
+  const aboutLink = Array.from(nav?.children || []).find(item =>
+    item.matches?.('a[href$="about.html"]')
+  );
+  const researchLink = Array.from(nav?.children || []).find(item =>
+    item.matches?.('a[href$="research.html"]')
+  );
+  if (aboutLink && document.documentElement.lang.toLowerCase().startsWith('zh')) {
+    const aboutNav = document.createElement('div');
+    aboutNav.className = 'nav-item nav-about';
+    aboutLink.before(aboutNav);
+    aboutNav.append(aboutLink);
+    aboutLink.setAttribute('aria-haspopup', 'true');
+    aboutNav.insertAdjacentHTML('beforeend', `
+      <div class="nav-submenu" aria-label="个人简介子栏目">
+        <a href="about.html#about-overview"><b>01</b><span><strong>概述</strong><small>研究者、实践者与分析者</small></span></a>
+        <a href="about.html#about-education"><b>02</b><span><strong>教育背景</strong><small>清华、川农学位与新国立联合培养</small></span></a>
+        <a href="about.html#about-scholarships"><b>03</b><span><strong>奖学金</strong><small>国家资助与学业奖励</small></span></a>
+        <a href="about.html#about-honors"><b>04</b><span><strong>荣誉称号</strong><small>综合素质与学生工作认可</small></span></a>
+        <a href="about.html#about-awards"><b>05</b><span><strong>比赛获奖</strong><small>科研、低碳与艺术表达</small></span></a>
+        <a href="about.html#about-skills"><b>06</b><span><strong>掌握技能</strong><small>AI、数据、工程与科研</small></span></a>
+        <a href="about.html#about-capabilities"><b>07</b><span><strong>关键能力</strong><small>从科学研究到投资判断</small></span></a>
+      </div>
+    `);
+  }
+  if (researchLink && document.documentElement.lang.toLowerCase().startsWith('zh')) {
+    const researchNav = document.createElement('div');
+    researchNav.className = 'nav-item nav-research';
+    researchLink.before(researchNav);
+    researchNav.append(researchLink);
+    researchLink.setAttribute('aria-haspopup', 'true');
+    researchNav.insertAdjacentHTML('beforeend', `
+      <div class="nav-submenu" aria-label="学术研究子栏目">
+        <a href="research.html#research-directions"><b>01</b><span><strong>研究方向</strong><small>三条研究主线与问题版图</small></span></a>
+        <a href="research.html#research-content"><b>02</b><span><strong>研究内容</strong><small>研究逻辑、量化结果与原始图表</small></span></a>
+        <a href="research.html#research-projects"><b>03</b><span><strong>项目经历</strong><small>跨方向项目与技术角色</small></span></a>
+        <a href="research.html#research-papers"><b>04</b><span><strong>论文成果索引</strong><small>九篇论文与完整证据入口</small></span></a>
+        <a href="research.html#research-ip"><b>05</b><span><strong>专利成果索引</strong><small>专利证书、软著与原件</small></span></a>
+        <a href="research.html#research-communication"><b>06</b><span><strong>学术交流</strong><small>学术汇报与最佳汇报奖</small></span></a>
+      </div>
+    `);
+  }
+
   const setSoundLabel = () => {
     if (!sound) return;
     sound.textContent = soundOn ? '♪' : '♩';
@@ -45,7 +87,9 @@
 
   document.querySelectorAll('a[href]').forEach(link => {
     const href = link.getAttribute('href');
-    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('http') || link.hasAttribute('download')) return;
+    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('http') || link.hasAttribute('download') || link.target === '_blank') return;
+    const destination = new URL(href, location.href);
+    if (destination.pathname === location.pathname && destination.hash) return;
     link.addEventListener('click', e => {
       if (e.metaKey || e.ctrlKey || e.shiftKey) return;
       e.preventDefault();
@@ -94,6 +138,60 @@
     });
     tone(590, .05);
   }));
+
+  const researchTabs = document.querySelectorAll('[data-research-tab]');
+  const researchPanels = document.querySelectorAll('[data-research-panel]');
+  const setResearchDirection = direction => {
+    if (!researchTabs.length || !researchPanels.length) return;
+    researchTabs.forEach(tab => {
+      const active = tab.dataset.researchTab === direction;
+      tab.classList.toggle('active', active);
+      tab.setAttribute('aria-selected', String(active));
+      tab.tabIndex = active ? 0 : -1;
+    });
+    researchPanels.forEach(panel => {
+      const active = panel.dataset.researchPanel === direction;
+      panel.hidden = !active;
+      panel.classList.toggle('active', active);
+    });
+  };
+  researchTabs.forEach(tab => tab.addEventListener('click', () => {
+    setResearchDirection(tab.dataset.researchTab);
+    tone(590, .05);
+  }));
+  document.querySelectorAll('[data-open-direction]').forEach(link => link.addEventListener('click', () => {
+    setResearchDirection(link.dataset.openDirection);
+  }));
+
+  const ipFilterButtons = document.querySelectorAll('[data-ip-filter]');
+  const ipRecords = document.querySelectorAll('[data-ip-category]');
+  ipFilterButtons.forEach(button => button.addEventListener('click', () => {
+    const filter = button.dataset.ipFilter;
+    ipFilterButtons.forEach(item => {
+      const active = item === button;
+      item.classList.toggle('active', active);
+      item.setAttribute('aria-pressed', String(active));
+    });
+    ipRecords.forEach(item => {
+      item.hidden = filter !== 'all' && item.dataset.ipCategory !== filter;
+    });
+    tone(590, .05);
+  }));
+
+  const lightbox = document.querySelector('#research-lightbox');
+  const lightboxImage = lightbox?.querySelector('img');
+  const lightboxCaption = lightbox?.querySelector('[data-lightbox-caption]');
+  document.querySelectorAll('[data-lightbox-src]').forEach(button => button.addEventListener('click', () => {
+    if (!lightbox || !lightboxImage) return;
+    lightboxImage.src = button.dataset.lightboxSrc;
+    lightboxImage.alt = button.dataset.lightboxAlt || '';
+    if (lightboxCaption) lightboxCaption.textContent = button.dataset.lightboxCaption || button.dataset.lightboxAlt || '';
+    lightbox.showModal();
+  }));
+  lightbox?.querySelector('[data-lightbox-close]')?.addEventListener('click', () => lightbox.close());
+  lightbox?.addEventListener('click', event => {
+    if (event.target === lightbox) lightbox.close();
+  });
 
   const langLink = document.querySelector('.lang-link');
   langLink?.addEventListener('click', () => localStorage.setItem('xl-lang', langLink.dataset.lang));
