@@ -109,6 +109,20 @@
   }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach(el => reveal.observe(el));
 
+  const educationTimeline = document.querySelector('[data-education-timeline]');
+  if (educationTimeline) {
+    if (reduced) {
+      educationTimeline.classList.add('is-active');
+    } else {
+      const educationGrowth = new IntersectionObserver(entries => entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-active');
+        educationGrowth.unobserve(entry.target);
+      }), { threshold: .2 });
+      educationGrowth.observe(educationTimeline);
+    }
+  }
+
   const count = new IntersectionObserver(entries => entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     const el = entry.target;
